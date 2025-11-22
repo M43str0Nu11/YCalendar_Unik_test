@@ -1,0 +1,84 @@
+# Flutter / Dart / IDE
+.dart_tool/
+/build/
+/.packages
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Generated Windows build artifacts
+windows/ephemeral/
+**/CMakeFiles/
+**/*.vcxproj*
+**/CMakeCache.txt
+
+# Logs
+*.log
+
+# Coverage / Reports
+coverage/
+
+# Crash reports
+flutter_*.png
+
+# Other
+*.DS_Store
+*.orig
+*.rej
+
+# Node / web (if added later)
+node_modules/
+
+# Secrets (add patterns as needed)
+.env
+.env.*# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
